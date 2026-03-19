@@ -17,8 +17,20 @@ jobs:
           command: "site"
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+      - name: Find site output
+        run: |
+          if [ -d "__sapper__/export" ]; then
+            echo "SITE_DIR=__sapper__/export" >> $GITHUB_ENV
+          elif [ -d "site/output" ]; then
+            echo "SITE_DIR=site/output" >> $GITHUB_ENV
+          else
+            echo "Looking for output..."
+            find . -name "index.html" -path "*/export/*" -o -name "index.html" -path "*/output/*" | head -5
+            FOUND=$(find . -type d -name "export" | head -1)
+            echo "SITE_DIR=${FOUND:-.}" >> $GITHUB_ENV
+          fi
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: __sapper__/export
+          path: ${{ env.SITE_DIR }}
       - uses: actions/deploy-pages@v4
