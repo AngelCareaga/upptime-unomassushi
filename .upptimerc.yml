@@ -37,8 +37,8 @@ status-website:
 i18n:
   activeIncidents: Incidentes activos
   allSystemsOperational: Todos los sistemas operacionales
-  incidentReport: "Reporte de incidente para $SITE_NAME"
-  activeIncidentSummary: "Desde $DATE, $SITE_NAME ha estado caido."
+  incidentReport: Reporte de incidente
+  activeIncidentSummary: Este servicio ha estado presentando problemas.
   incidentTitle: Detalles del incidente
   incidentDetails: Detalles del incidente
   noIncidents: No hay incidentes recientes
