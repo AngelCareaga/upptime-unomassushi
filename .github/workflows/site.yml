@@ -20,5 +20,5 @@ jobs:
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site/output
+          path: __sapper__/export
       - uses: actions/deploy-pages@v4
