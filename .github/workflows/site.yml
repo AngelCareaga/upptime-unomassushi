@@ -1,0 +1,22 @@
+name: Static Site CI
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [deploy]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: upptime/uptime-monitor@v1.38.4
+        with:
+          command: "site"
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/output
+      - uses: actions/deploy-pages@v4

@@ -1,0 +1,77 @@
+owner: AngelCareaga
+repo: upptime-unomassushi
+
+sites:
+  - name: API Backend
+    url: https://api.unomassushi.com/api/status
+    expectedStatusCodes:
+      - 200
+
+  - name: Dashboard
+    url: https://dashboard.unomassushi.com
+    expectedStatusCodes:
+      - 200
+
+  - name: Portal
+    url: https://portal.unomassushi.com
+    expectedStatusCodes:
+      - 200
+
+  - name: Landing
+    url: https://unomassushi.com
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: status.unomassushi.com
+  logoUrl: https://unomassushi.com/favicon.ico
+  name: UnoMasSushi Status
+  introTitle: "**UnoMasSushi** sistema de monitoreo"
+  introMessage: Estado actual y historial de disponibilidad de todos los servicios de UnoMasSushi.
+  navbar:
+    - title: Status
+      href: /
+    - title: App
+      href: https://unomassushi.com
+
+i18n:
+  activeIncidents: Incidentes activos
+  allSystemsOperational: Todos los sistemas operacionales
+  incidentReport: "Reporte de incidente para $SITE_NAME"
+  activeIncidentSummary: "Desde $DATE, $SITE_NAME ha estado caido."
+  incidentTitle: Detalles del incidente
+  incidentDetails: Detalles del incidente
+  noIncidents: No hay incidentes recientes
+  uptimeOverview: Resumen de disponibilidad
+  responseTimeOverview: Tiempo de respuesta
+  liveStatus: Estado en vivo
+  day: dia
+  days: dias
+  hour: hora
+  hours: horas
+  minute: minuto
+  minutes: minutos
+  second: segundo
+  seconds: segundos
+  responseTime: tiempo de respuesta
+  uptime: disponibilidad
+  up: operacional
+  down: caido
+  degraded: degradado
+  ms: ms
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "deploy"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "*/5 * * * *"
+  uptime: "*/5 * * * *"
+
+commitMessages:
+  statusChange: "$EMOJI $SITE_NAME esta $STATUS ($RESPONSE_CODE en $RESPONSE_TIME ms)"
+  startIncident: "🛑 $SITE_NAME esta caido"
+  closeIncident: "✅ $SITE_NAME esta de vuelta"
+
+skipDescriptionUpdate: true
