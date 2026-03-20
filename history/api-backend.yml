@@ -1,7 +1,7 @@
 url: https://api.unomassushi.com/api/status
-status: up
-code: 200
-responseTime: 307
-lastUpdated: 2026-03-20T22:01:53.134Z
+status: down
+code: 503
+responseTime: 5334
+lastUpdated: 2026-03-20T22:39:07.463Z
 startTime: 2026-03-19T07:03:12.000Z
 generator: Upptime <https://github.com/upptime/upptime>
