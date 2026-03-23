@@ -3,7 +3,7 @@ repo: upptime-unomassushi
 
 sites:
   - name: API Backend
-    url: https://api.unomassushi.com/api/status
+    url: https://api.unomassushi.com/healthz
     expectedStatusCodes:
       - 200
 
