@@ -10,7 +10,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: upptime/uptime-monitor@v1.41.0
+      - uses: upptime/uptime-monitor@v1.43.2
         with:
           command: "summary"
         env:
