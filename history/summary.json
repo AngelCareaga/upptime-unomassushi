@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.unomassushi.com.ico",
     "slug": "api-backend",
     "status": "down",
-    "uptime": "90.33%",
-    "uptimeDay": "100.00%",
+    "uptime": "90.31%",
+    "uptimeDay": "96.20%",
     "uptimeWeek": "85.43%",
-    "uptimeMonth": "67.49%",
-    "uptimeYear": "90.33%",
+    "uptimeMonth": "67.37%",
+    "uptimeYear": "90.31%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -40,7 +40,9 @@
       "2026-07-16": 1440,
       "2026-07-15": 1440,
       "2026-07-14": 1440,
-      "2026-07-13": 1212
+      "2026-07-13": 1212,
+      "2026-07-29": 10,
+      "2026-07-28": 45
     }
   },
   {
