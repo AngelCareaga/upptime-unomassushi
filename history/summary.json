@@ -4,10 +4,10 @@
     "url": "https://api.unomassushi.com/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/api.unomassushi.com.ico",
     "slug": "api-backend",
-    "status": "down",
+    "status": "up",
     "uptime": "90.78%",
-    "uptimeDay": "85.43%",
-    "uptimeWeek": "94.35%",
+    "uptimeDay": "85.40%",
+    "uptimeWeek": "94.34%",
     "uptimeMonth": "66.26%",
     "uptimeYear": "90.78%",
     "time": 0,
@@ -47,7 +47,7 @@
       "2026-08-04": 183,
       "2026-08-07": 103,
       "2026-08-08": 92,
-      "2026-08-09": 118
+      "2026-08-09": 119
     }
   },
   {
