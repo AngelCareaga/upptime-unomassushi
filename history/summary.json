@@ -4,7 +4,7 @@
     "url": "https://api.unomassushi.com/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/api.unomassushi.com.ico",
     "slug": "api-backend",
-    "status": "up",
+    "status": "down",
     "uptime": "91.30%",
     "uptimeDay": "94.15%",
     "uptimeWeek": "98.40%",
