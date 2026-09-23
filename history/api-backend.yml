@@ -1,7 +1,7 @@
 url: https://api.unomassushi.com/healthz
-status: down
-code: 502
-responseTime: 216
-lastUpdated: 2026-09-23T06:48:05.904Z
+status: up
+code: 200
+responseTime: 343
+lastUpdated: 2026-09-23T12:17:26.242Z
 startTime: 2026-03-19T07:03:12.000Z
 generator: Upptime <https://github.com/upptime/upptime>
